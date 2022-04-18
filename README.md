@@ -6,7 +6,7 @@
 Commands
 -------
 
-### HW 題目1
+#### HW 題目1
 ```
 ./yii sentance/get-daily-word
 ```
@@ -16,7 +16,7 @@ Output
 Daily Word: Wrier shrines show us how kayaks can be slaves. We can assume that any instance of a creator can be construed as a jannock birth. In ancient times a dogged farm's ex-wife comes with it the thought that the rustic army is a denim.
 ```
 
-### HW 題目3
+#### HW 題目3
 ```
 ./yii sentance/get-custom-word
 ```
