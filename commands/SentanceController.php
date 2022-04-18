@@ -23,6 +23,9 @@ class SentanceController extends Controller
         echo "Daily Word: $word", PHP_EOL;
     }
 
+    /**
+     * Get custom word (by Metaphorpsum or Itsthisforthat resource).
+     */
     public function actionGetCustomWord()
     {
         $word = (new Sentance)->getWord('Metaphorpsum');
