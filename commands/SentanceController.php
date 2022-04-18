@@ -3,6 +3,7 @@
 namespace app\commands;
 
 use app\components\DailySentanceService;
+use app\components\Sentance;
 use yii\console\Controller;
 
 /**
@@ -21,5 +22,16 @@ class SentanceController extends Controller
         $word = (new DailySentanceService)->getSentance();
 
         echo "Daily Word: $word", PHP_EOL;
+    }
+
+    public function actionGetCustomWord()
+    {
+        $word = (new Sentance)->getWord('Metaphorpsum');
+
+        echo "Metaphorpsum Word: $word", PHP_EOL;
+
+        $word = (new Sentance)->getWord('Itsthisforthat');
+
+        echo "Itsthisforthat Word: $word", PHP_EOL;
     }
 }
