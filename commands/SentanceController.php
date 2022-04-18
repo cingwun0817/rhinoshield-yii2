@@ -2,8 +2,7 @@
 
 namespace app\commands;
 
-use app\components\DailySentanceService;
-use app\components\Sentance;
+use app\components\{DailySentanceService, Sentance};
 use yii\console\Controller;
 
 /**
